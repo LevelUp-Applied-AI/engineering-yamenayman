@@ -28,3 +28,8 @@ source .venv/bin/activate   # Mac/Linux
 # or: source .venv/Scripts/activate  (Windows Git Bash)
 pip install -r requirements-prework.txt
 ```
+## How to run
+
+1. **Activate Environment:** Run `source .venv/Scripts/activate` (or `.\.venv\Scripts\activate` on Windows).
+2. **Execute Code:** Run the project using the command `python main.py` (أو اسم الملف الرئيسي عندك).
+3. **Verify Success:** Ensure the output in the terminal matches the expected results without errors.
