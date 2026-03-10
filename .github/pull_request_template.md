@@ -1,20 +1,15 @@
-## What changed
-<!-- Summarize the key changes at a high level.
-List major files modified or behavior changes. -->
+## What Changed
+- Added a Pull Request template to the .github folder.
+- Created a self-review checklist in the docs folder.
+- Updated the main README with a "How to run" section.
+
 ## Why
-<!-- Explain the problem this PR solves.
-What was broken, missing, or unclear?
-Why was this approach chosen? -->
-## How to test
-<!-- Provide exact steps to verify this works.
-Include commands to run and expected output. -->
-1. Activate virtual environment
-2. Install dependencies
-3. Run the application or tests
-4. Confirm expected behavior
+This ensures all future code submissions follow professional hygiene standards and are verified before merging.
+
+## How to Test
+1. Confirm the existence of the .github and docs folders.
+2. Verify that the README.md contains the "How to run" section.
+
 ## Checklist
-- [ ] Title uses imperative mood and is specific
-- [ ] PR contains only one logical change
-- [ ] Tests added or updated if needed
-- [ ] README updated if behavior changed
-- [ ] No debug code or temporary print statements left
+- [ x] My code follows the project's style guidelines.
+- [ x] I have performed a self-review of my own code.
